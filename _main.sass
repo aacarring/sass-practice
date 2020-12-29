@@ -1,9 +1,42 @@
 body 
     background-color: $primary
     color: $accent
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100vw
+    height: 100vh
     div
+        display: flex
+        justify-content: center
+        align-items: center
         background-color: $primary
+        width: 25vw
+        height: 25vh
     article 
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
         background-color: $primary
         border: 2px solid $accent
         +border-radius(10px)
+        p
+            margin: 25px
+            display: flex
+            font-size: 2.5em
+            font-weight: 700
+            font-family: monospace
+            text-align: center
+        button 
+            color: $accent
+            font-size: 1.25em
+            margin-bottom: 25px
+            display: flex
+            min-width: 7vw
+            height: 5vh
+            +border-radius(5px)
+        button:hover 
+            background-color: $accent
+            color: $primary
+            cursor: pointer

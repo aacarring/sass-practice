@@ -1,11 +1,25 @@
 body {
   background-color: snow;
   color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: snow;
+  width: 25vw;
+  height: 25vh;
 }
 body article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: snow;
   border: 2px solid darkgreen;
   -webkit-border-radius: 10px;
@@ -13,9 +27,30 @@ body article {
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
-
-footer {
-  background-color: snow;
+body article p {
+  margin: 25px;
+  display: flex;
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: monospace;
+  text-align: center;
+}
+body article button {
+  color: darkgreen;
+  font-size: 1.25em;
+  margin-bottom: 25px;
+  display: flex;
+  min-width: 7vw;
+  height: 5vh;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+body article button:hover {
+  background-color: darkgreen;
+  color: snow;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
