@@ -1,5 +1,13 @@
 body {
-  background-color: moccasin;
+  background-color: snow;
+  color: darkgreen;
+}
+body div {
+  background-color: snow;
+}
+body article {
+  background-color: snow;
+  border: 2px solid darkgreen;
 }
 
 /*# sourceMappingURL=styles.css.map */
