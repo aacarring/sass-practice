@@ -8,6 +8,14 @@ body div {
 body article {
   background-color: snow;
   border: 2px solid darkgreen;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: snow;
 }
 
 /*# sourceMappingURL=styles.css.map */
