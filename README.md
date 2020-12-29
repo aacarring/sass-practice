@@ -1,0 +1,1 @@
+A bare bones practice project to better get the hang of Sass.
